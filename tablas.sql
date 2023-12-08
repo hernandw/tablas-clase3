@@ -140,11 +140,11 @@ Una empresa tiene registrados sus clientes en una tabla llamada "clientes", tamb
 
 Segundo problema:
 Un club dicta clases de distintos deportes. Almacena la información en una tabla llamada 
-"inscriptos" que incluye el documento, el nombre, el deporte y si la matricula esta paga o no y una 
+"inscritos" que incluye el documento, el nombre, el deporte y si la matricula esta paga o no y una 
 tabla llamada "inasistencias" que incluye el documento, el deporte y la fecha de la inasistencia.
 1 - Cree las tablas:
 
- create table inscriptos(
+ create table inscritos(
   nombre varchar(30),
   documento char(8),
   deporte varchar(15),
@@ -177,8 +177,8 @@ tabla llamada "inasistencias" que incluye el documento, el deporte y la fecha de
 Note que la condición es compuesta porque para identificar los registros de la tabla "inasistencias"
 necesitamos ambos campos.
 
-4- Obtenga el nombre, deporte y las fechas de inasistencias de un determinado inscripto en un 
+4- Obtenga el nombre, deporte y las fechas de inasistencias de un determinado inscrito en un 
 determinado deporte (3 registros)
 
-5- Obtenga el nombre, deporte y las fechas de inasistencias de todos los inscriptos que pagaron la 
+5- Obtenga el nombre, deporte y las fechas de inasistencias de todos los inscritos que pagaron la 
 matrícula(4 registros)
